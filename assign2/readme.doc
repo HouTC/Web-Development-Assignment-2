@@ -1,0 +1,24 @@
+1. a list of all the files in the system:
+booking.html
+bookingajax.js
+bookingprocess.php
+admin.html
+searchajax.js
+searchprocess.php
+assignajax.js
+assignprocess.php
+style.css
+mysql.txt
+readme.doc
+background.jpg
+
+2. brief instructions on how to use the system:
+In the booking page, user needs to input their booking information, all the inputs except 
+for "Unit Number" are mandatory fields, once the booking is seccussful, the confirmation information
+will appear at the bottom of the page.
+
+In the admin page, user can click the "Search pick-up requests" button, and then those “unsigned” 
+booking requests with a pick-up time within 2 hours from now will appear below the button. And if user
+enter valid booking reference number in the text field, the status of booking will be changed from "unassigned"
+to "assigned", and the confirmation will appear below the text field. And besides, all the requirements in
+the assignment are met in the system. 

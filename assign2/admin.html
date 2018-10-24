@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<!--Tiancheng Hou, ID: 17967739-->
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Page</title>
+
+    <script type="text/javascript" src="searchajax.js"></script>
+    <script type="text/javascript" src="assignajax.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Cabs Online - Admin Page</h1>
+    <div>
+        <br>
+        <form>
+            <button type="button" onclick="searchData()">Search pick-up requests</button><br>
+        </form>
+
+        <p id="searchTarget">The pick-up request data will go here.</p>
+    </div><br><br>
+
+    <div>
+        <form>
+            Enter booking reference number: <input type="text" id="bref"><br>
+            <button type="button" onclick="assignData()">Assign Taxi</button>
+        </form>
+
+        <p id="assignTarget">The confirmation data will go here.</p>
+    </div>
+
+</body>
+</html> 

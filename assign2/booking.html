@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<!--Tiancheng Hou, ID: 17967739-->
+<head>
+    <meta charset="UTF-8">
+    <title>Booking Page</title>
+
+    <script type="text/javascript" src="bookingajax.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Cabs Online - Booking Page</h1>
+    <form>
+        Customer Name (mandatory): <input type="text" id="cname"><br>
+        Contact Phone (mandatory): <input type="text" id="phone"><br>
+        Unit Number:<input type="text" id="unumber"><br>
+        Street Number (mandatory): <input type="text" id="snumber"><br>
+        Street Name (mandatory): <input type="text" id="sname"><br>
+        Suburb (mandatory): <input type="text" id="suburb"><br>
+        Destination Suburb (mandatory): <input type="text" id="dsurburb"><br>
+        Pick-up date (mandatory): <input type="date" id="pdate"><br>
+        Pick-up time (mandatory): <input type="time" id="ptime"><br>
+        <input type="button" onclick="getData()" value="Submit">
+    </form>
+
+    <div><p id="targetPara">The returned data will go here.</p></div>
+
+</body>
+</html> 

@@ -1,0 +1,7 @@
+CREATE TABLE TaxiBooking (BookingNumber VARCHAR(255)
+        			  , Name VARCHAR(255), PhoneNumber VARCHAR(255)
+                      , UnitNumber VARCHAR(255), StreetNumber VARCHAR(255)
+                      , StreetName VARCHAR(255), Suburb VARCHAR(255)
+                      , DestinationSuburb VARCHAR(255), PickDate VARCHAR(255), PickTime VARCHAR(255)
+                      , BookingDateTime VARCHAR(255), Status VARCHAR(255)
+        			  , PRIMARY KEY (BookingNumber) )
